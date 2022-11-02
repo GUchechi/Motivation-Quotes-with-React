@@ -19,7 +19,7 @@ function App() {
     <div className="App">
         <div className="quote">
           <p>{quotes.text}</p>
-          <p>{quotes.author}</p>
+          <p>Author: {quotes.author}</p>
           <div className="btnContainer">
             <button onClick={getQuote} className="btn">Get Quote</button>
             <a 
